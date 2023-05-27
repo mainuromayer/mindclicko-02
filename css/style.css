@@ -69,8 +69,14 @@ a:hover {
   padding: 0.5rem 0;
   background: #eee;
 }
+
 .top-bar a {
   color: #184CA1;
+  font-weight: 600;
+}
+
+.topbar_title {
+  font-weight: 600;
 }
 
 .site-navbar {
@@ -104,7 +110,7 @@ a:hover {
   margin-bottom: 0;
 }
 .site-navbar .site-navigation .site-menu .active {
-  color: #007bff !important;
+  color: #184CA1 !important;
 }
 .site-navbar .site-navigation .site-menu a {
   text-decoration: none !important;
@@ -117,12 +123,13 @@ a:hover {
   margin-left: 15px;
   margin-right: 15px;
   padding: 20px 0px;
-  color: #000 !important;
+  color: #707070 !important;
+  font-weight: 600;
   display: inline-block;
   text-decoration: none !important;
 }
 .site-navbar .site-navigation .site-menu > li > a:hover {
-  color: #007bff;
+  color: #184CA1;
 }
 .site-navbar .site-navigation .site-menu .has-children {
   position: relative;
@@ -423,8 +430,11 @@ a:hover {
   width: 100%;
 }
 .site-mobile-menu .site-nav-wrap > li > a {
-  padding-left: 20px;
-  font-size: 20px;
+	padding-left: 91px;
+	font-size: 20px;
+	border: 0.5px solid #fff;
+	background: #184ca1;
+	color: #fff;
 }
 .site-mobile-menu .site-nav-wrap > li > ul {
   padding: 0;
@@ -490,13 +500,13 @@ a:hover {
   box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
 }
 .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-  color: #007bff;
+  color: #184CA1;
 }
 .sticky-wrapper.is-sticky .site-navbar ul li a {
-  color: #000 !important;
+  color: #707070 !important;
 }
 .sticky-wrapper.is-sticky .site-navbar ul li a.active {
-  color: #007bff !important;
+  color: #184CA1 !important;
 }
 .sticky-wrapper .shrink {
   padding-top: 0px !important;
@@ -538,6 +548,7 @@ main {
   border-radius: 50px;
   padding: 2px;
 }
+
 
 
 
@@ -671,15 +682,47 @@ main {
 	border-radius: 10px;
 }
 
+.pagination .item-2, .pagination .item-3, .pagination .item-4, .pagination .item-5, .pagination .item-6 {
+  color: #707070;
+}
+
+.pagination .item-2 a:hover {
+  background-color: #184CA1;
+  color: #fff;
+  border: none;
+}
+.pagination .item-3 a:hover {
+  background-color: #184CA1;
+  color: #fff;
+  border: none;
+}
+.pagination .item-4 a:hover {
+  background-color: #184CA1;
+  color: #fff;
+  border: none;
+}
+.pagination .item-5 a:hover {
+  background-color: #184CA1;
+  color: #fff;
+  border: none;
+}
+.pagination .item-6 a:hover {
+  background-color: #184CA1;
+  color: #fff;
+  border: none;
+}
+
 .page-item:first-child .page-link {
 	margin-left: 0;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
+  color: #184CA1;
 }
 
 .page-item:last-child .page-link {
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
+  color: #184CA1;
 }
 /* ==================================== */
 
@@ -688,7 +731,7 @@ main {
 
 /* =========== BLOG ============= */
 #blog {
-  background-color: #184CA1;
+  background-image: linear-gradient(#262262, #184CA1);
   color: #fff;
 }
 
@@ -704,7 +747,7 @@ main {
 
 /* =========== CONTACT ============= */
 footer {
-  background-color: #184CA1;
+  background-image: linear-gradient(#262262, #184CA1);
   color: #fff;
   padding: 150px 0 180px 0;
 }
@@ -753,6 +796,12 @@ footer {
 }
 
 /* ==== social icon ==== */
+
+.social-icon a {
+  color: #184CA1;
+  margin: 5px;
+}
+
 .social-facebook {
 	padding: 10px 16px;
 	border-radius: 50%;
